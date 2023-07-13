@@ -6,7 +6,7 @@ warnings.filterwarnings("ignore")
 st.header("Name Identification in text", anchor=None)
 
 def contains_name(text):
-    nlp = spacy.load('en_core_web_sm')
+    nlp = spacy.load('en_core_web_lg')
     doc = nlp(text)
     names = []
     for ent in doc.ents:
