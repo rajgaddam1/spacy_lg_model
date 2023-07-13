@@ -5,7 +5,7 @@ import warnings
 warnings.filterwarnings("ignore")
 st.header("Name Identification in text", anchor=None)
 
-"""
+
 ######------------------------------------------------------------------------
 import subprocess
 @st.cache_resource
@@ -14,7 +14,7 @@ def download_en_core_web_sm():
 
 download_en_core_web_sm()
 ######------------------------------------------------------------------------
-"""
+
 
 def contains_name(text):
     nlp = spacy.load('en_core_web_lg')
